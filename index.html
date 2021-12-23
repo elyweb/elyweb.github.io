@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+<style>
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*css dsffilement*/
+.t1{
+  color: white;
+  font-family: helvetica;
+  text-transform: uppercase;
+ 
+}
+#dv1{
+  display:flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  min-width: 100%;
+}
+.news-message{
+  display : flex;
+  flex-shrink: 0;
+  height: 50px;
+  align-items: center;
+  animation: slide-l 20s linear infinite;
+}
+.p1{
+    font-size: 2.5em;
+    font-weight: 100;
+    padding-left: 0.5em;
+  }
+  @keyframes slide-l {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+</style>
+</head>
+<body>
+	<header>
+		<!---bar de navigation-->
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+			<div class="container">
+				<a href="#" class="navbar-brand"> La Voix de Dieu de Divo</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="navbar navbar-toggler-icon bg-danger"></span>
+			</button>
+			
+			<div class="navbar navbar-collapse" id="navmenu">
+				<ul class="navbar-nav ms-auto ">
+					<li class="navbar-item">
+						<a href="branham.org" class="nav-link">Branham.org</a>	
+					</li>
+					<li class="navbar-item">
+						<a href="#themessage" class="nav-link">themessage.com</a>	
+					</li>
+					<li class="navbar-item">
+						<a href="#youtube" class="nav-link">youtube.com</a>	
+					</li>
+				</ul>
+			  </div>
+			</div>					
+		</nav>
+		<!---image de presentation-->
+		<section class="bg-dark text-light p-5 text-center text-sm-start">
+			<div class="container">
+				<div class="d-sm-flex align-items-center justify-content-between">
+				  <div>
+				     <h1><span class="text-danger">Message</span>  du Temps de la Fin</h1>
+				     <p class="lead my-4"> A chaque âge Dieu a toujours donné <span class="text-danger">un messagé.</span></p>
+				  <span class="text-danger">
+				     <span class="bi bi-star"></span>
+				     <span class="bi bi-star"></span>
+				     <span class="bi bi-star"></span>
+				     <span class="bi bi-star"></span>
+				     <span class="bi bi-star"></span>
+				     <span class="bi bi-star"></span>
+				     <span class="bi bi-star"></span>
+				 </span>
+				 </div>
+				 <div>
+				 	<span><i class="bi bi-triangle-fill text-light"></i></span>
+				 </div>
+				
+				</div>
+			</div>
+		</section>
+		<!--message de defilement-->
+		<section class="t1 bg-danger text-light p-5">
+				<div id="dv1">
+  					<section class="news-message t1">
+
+    				<p class="p1 ">debut du nouveau siteweb de la voix de Dieu de Divo(2021)</p>
+    			</section>
+ 			
+			</div>
+ 	   </section>
+	</header>
+	<main>
+		<section class="align-items-center p-5">
+	    
+		</section>
+	</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html> 
